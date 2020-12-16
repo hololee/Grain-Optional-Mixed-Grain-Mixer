@@ -18,12 +18,12 @@ This project is carried out by a team of 5 people.
 **D.K.Joo** : Development and manufacture.   
 
 ### Concept  
-In general, the process of making rice is very difficult.
-Perform a series of procedures to bring an appropriate amount of stored rice, wash it, and put it in a rice cooker.
+In general, the process of making rice is very difficult.  
+Perform a series of procedures to bring an appropriate amount of stored rice, wash it, and put it in a rice cooker.  
 With the consumption of rice in an environment where single-person households are rapidly increasing, our team tried to develop a device that effectively stores rice and health-conscious grains and automates cleaning.
 
 ### Appearance design
-The goal is to design home appliances that efficiently store and clean up weeds.
+The goal is to design home appliances that efficiently store and clean up weeds.  
 the upper part of a large store of rice A certain amount of grain is divided into the middle part of the washing machine and the bottom part of the washing process.
 The following figure illustrates the overall exterior design.
 | ![grain](https://github.com/hololee/Grain-Optional-Mixed-Grain-Mixer/blob/main/device_inside.png?raw=true) | ![grain](https://github.com/hololee/Grain-Optional-Mixed-Grain-Mixer/blob/main/device_out.png?raw=true) |
@@ -41,7 +41,8 @@ The following figure illustrates the overall exterior design.
  ![grain](https://github.com/hololee/Grain-Optional-Mixed-Grain-Mixer/blob/main/step3.png?raw=true)
 
 ### Circuit Design
-Based on the Arduino, a complex operation of motors, water pumps, and Internet communication was required.
+Based on the Arduino, a complex operation of motors, water pumps, Ultrasonic distance sensor, and Internet communication was required.  
+Top side three ultrasonic distance sensor detect how much remained rice is there and arduino update the server data.  
 The three motors serve to send a certain amount of rice down through the structure shown below.  
 |![grain](https://github.com/hololee/Grain-Optional-Mixed-Grain-Mixer/blob/main/rotation.png?raw=true)| ![grain](https://github.com/hololee/Grain-Optional-Mixed-Grain-Mixer/blob/main/rotation2.png?raw=true) |
 |--|--|
@@ -54,15 +55,15 @@ The figure below shows the overall circuit configuration and the shape of the ac
 |--|--|
 
 ### App Design
-When a user runs a rice wash through the app, the contents are sent to the server and the device receives the information and proceeds with the rice wash.
-The purpose of using the app is to increase convenience by automatically washing in advance in situations such as on the way home from work.
+When a user runs a rice wash through the app, the contents are sent to the server and the device receives the information and proceeds with the rice wash.  
+The purpose of using the app is to increase convenience by automatically washing in advance in situations such as on the way home from work.  
 The picture below shows the picture of the app.
 |![grain](https://github.com/hololee/Grain-Optional-Mixed-Grain-Mixer/blob/main/Artboard%201-100.jpg?raw=true)| ![grain](https://github.com/hololee/Grain-Optional-Mixed-Grain-Mixer/blob/main/Artboard%202-100.jpg?raw=true) | ![grain](https://github.com/hololee/Grain-Optional-Mixed-Grain-Mixer/blob/main/Artboard%203-100.jpg?raw=true)|
 |--|--|--|
 |![grain](https://github.com/hololee/Grain-Optional-Mixed-Grain-Mixer/blob/main/Artboard%204-100.jpg?raw=true)| ![grain](https://github.com/hololee/Grain-Optional-Mixed-Grain-Mixer/blob/main/Artboard%205-100.jpg?raw=true) | ![grain](https://github.com/hololee/Grain-Optional-Mixed-Grain-Mixer/blob/main/Artboard%206-100.jpg?raw=true)|
 
 ### Production
-Products such as acrylic boards were designed with drawings, and the exterior was painted in colors suitable for home appliances. 
+Products such as acrylic boards were designed with drawings, and the exterior was painted in colors suitable for home appliances.  
 The final product is as follows.
 |![grain](https://github.com/hololee/Grain-Optional-Mixed-Grain-Mixer/blob/main/final_product.jpg?raw=true)| ![grain](https://github.com/hololee/Grain-Optional-Mixed-Grain-Mixer/blob/main/after_wash.jpg?raw=true) |
 |--|--|
