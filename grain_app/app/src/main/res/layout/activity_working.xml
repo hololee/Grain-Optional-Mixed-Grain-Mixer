@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".activity.WorkingActivity">
+
+
+    <RelativeLayout
+        android:id='@+id/layout0'
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="비율 설정"
+            android:textColor="#512c00"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id='@+id/layout1'
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/layout0">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#d3d3d3">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.4dp"
+                android:layout_marginLeft="0.4dp"
+                android:layout_marginTop="0.4dp"
+                android:background="#ffffff">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="잡곡1"
+                    android:textColor="#512c00"
+                    android:textSize="12sp" />
+
+
+                <ImageButton
+                    android:id="@+id/box1_add"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/box1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:adjustViewBounds="true"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/add" />
+
+
+                <TextView
+                    android:id="@+id/box1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="#512c00"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id='@+id/box1_1'
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/box1"
+                    android:layout_centerHorizontal="true"
+                    android:text="0g"
+                    android:textColor="#d28e3c"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+                <ImageButton
+                    android:id="@+id/box1_sub"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/box1_1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/sub" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#d3d3d3">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.4dp"
+                android:layout_marginLeft="0.4dp"
+                android:layout_marginRight="0.4dp"
+                android:layout_marginTop="0.4dp"
+                android:background="#ffffff">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="쌀"
+                    android:textColor="#512c00"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/box2_add"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/box2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:adjustViewBounds="true"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/add" />
+
+
+                <TextView
+                    android:id="@+id/box2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="#512c00"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id='@+id/box2_1'
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/box2"
+                    android:layout_centerHorizontal="true"
+                    android:text="0g"
+                    android:textColor="#d28e3c"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+                <ImageButton
+                    android:id="@+id/box2_sub"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/box2_1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/sub" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#d3d3d3">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.4dp"
+                android:layout_marginRight="0.4dp"
+                android:layout_marginTop="0.4dp"
+                android:background="#ffffff">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="잡곡2"
+                    android:textColor="#512c00"
+                    android:textSize="12sp" />
+
+
+                <ImageButton
+                    android:id="@+id/box3_add"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/box3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:adjustViewBounds="true"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/add" />
+
+
+                <TextView
+                    android:id="@+id/box3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="#512c00"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id='@+id/box3_1'
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/box3"
+                    android:layout_centerHorizontal="true"
+                    android:text="0g"
+                    android:textColor="#d28e3c"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+                <ImageButton
+                    android:id="@+id/box3_sub"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/box3_1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/sub" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id='@+id/layout2'
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/layout1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="세척 횟수 설정"
+            android:textColor="#512c00"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id='@+id/layout3'
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@+id/layout2">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#d3d3d3">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.4dp"
+                android:layout_marginLeft="0.4dp"
+                android:layout_marginTop="0.4dp"
+                android:background="#ffffff">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="세척횟수"
+                    android:textColor="#512c00"
+                    android:textSize="12sp" />
+
+
+                <ImageButton
+                    android:id="@+id/box4_add"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/box4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:adjustViewBounds="true"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/add" />
+
+
+                <TextView
+                    android:id="@+id/box4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="#512c00"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <ImageButton
+                    android:id="@+id/box4_sub"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/box4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/sub" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:text="쌀 1인분은 약 200g, 잡곡 1인분은 약 30g 입니다"
+        android:textColor="#512c00"
+        android:textSize="12sp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true">
+
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_selector"
+            android:text="씻기 시작"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
